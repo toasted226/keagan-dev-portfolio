@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root {
+    --dark: #041316;
+    --green0: #061c20;
+    --green1: #10454F;
+    --green2: #506266;
+    --green3: #818274;
+    --green4: #A3AB78;
+    --green5: #BDE038;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+    color: var(--green4);
+    background-color: var(--green0);
+    background-image: url(assets/background.png);
+    background-size: 10%;
+}
+
+button {
+    background-color: var(--dark);
+    width: 100px;
+    height: 40px;
+
+    color: var(--green4);
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+
+    border: 1px solid var(--green4);
+}
+
+button:hover {
+    background-color: var(--green0);
+}
+
+button:active {
+    color: var(--green5);
+    border: 1px solid var(--green5);
+}

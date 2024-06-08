@@ -1,0 +1,17 @@
+.about {
+    background-color: var(--green0);
+    padding: 20px 0 40px 0;
+    margin: 200px;
+}
+
+.heading {
+    margin: auto;
+    width: 300px;
+    color: var(--green5);
+}
+
+.about > .paragraph {
+    color: var(--green4);
+    width: 50%;
+    margin: auto;
+}
