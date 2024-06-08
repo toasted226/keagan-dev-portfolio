@@ -21,7 +21,7 @@ body {
     color: var(--green4);
     background-color: var(--green0);
     background-image: url(assets/background.png);
-    background-size: calc(100vh * 0.15);
+    background-size: calc(100vh * 0.2);
     background-repeat: repeat;
 }
 

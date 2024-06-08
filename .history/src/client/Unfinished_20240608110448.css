@@ -1,11 +1,12 @@
 .about {
     background-color: var(--green0);
     padding: 20px 0 40px 0;
+    margin: 200px;
 }
 
 .heading {
     margin: auto;
-    width: 50%;
+    width: 300px;
     color: var(--green5);
 }
 

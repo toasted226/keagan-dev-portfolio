@@ -4,13 +4,11 @@
 }
 
 .heading {
-    margin: auto;
-    width: 50%;
+    width: 300px;
     color: var(--green5);
 }
 
 .about > .paragraph {
     color: var(--green4);
     width: 50%;
-    margin: auto;
 }
